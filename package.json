@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fs": "nodemon modules/filesys.js"
+    "fs": "nodemon modules/filesys.js",
+    "os": "nodemon modules/os.js",
+    "process": "nodemon modules/process.js",
+    "console": "nodemon modules/console.js"
   },
   "keywords": [],
   "author": "Carlos Colin <contact@carloscolin.me>",
   "license": "MIT",
   "dependencies": {
     "-": "^0.0.1",
-    "pm2": "^5.1.0"
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.1",
+    "pm2": "^5.1.0",
+    "sharp": "^0.29.0"
   }
 }
